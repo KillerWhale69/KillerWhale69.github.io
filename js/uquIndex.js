@@ -2,16 +2,15 @@
 const java1Card = document.getElementById("java1Card");
 const java1Ul = document.getElementById("java1Ul");
 const liArray = [
-    {text: "LAB 1",                 link: "JAVA_1/LAB_1.java",               apiKey: 0},
-    {text: "LAB 1 (شرح)",           link: "JAVA_1_EXP/LAB_1.html",           apiKey: 1},
-    {text: "ASSIGNMENT 1 (OLD)",    link: "JAVA_1/ASSIGNMENT_1_OLD.java",    apiKey: 2},
-    {text: "ASSIGNMENT 1 (NEW)",    link: "JAVA_1/ASSIGNMENT_1_NEW.java",    apiKey: 3},
-    {text: "ASSIGNMENT 1 (شرح)",    link: "JAVA_1_EXP/ASSIGNMENT_1.html",    apiKey: 4},
-    {text: "LAB 2",                 link: "JAVA_1/LAB_2.java",               apiKey: 5},
-    {text: "LAB 2 (شرح)",           link: "JAVA_1_EXP/LAB_2.html",           apiKey: 6},
-    {text: "LAB 3 (App.java)",      link: "JAVA_1/LAB_3.java",               apiKey: 7},
-    {text: "LAB 3 (AppTest.java)",  link: "JAVA_1/LAB_3_TEST.java",          apiKey: 8},
-    {text: "LAB 3 (شرح)",           link: "JAVA_1_EXP/LAB_3.html",           apiKey: 9},
+    {text: "LAB 1 (حل)",                 link: "coolPage.html",               apiKey: 0},
+    {text: "LAB 1 (شرح)",           link: "JAVA_1_EXP/LAB_1.html#exp",           apiKey: 1},
+    {text: "ASSIGNMENT 1 (OLD) (حل)",    link: "coolPage.html",    apiKey: 2},
+    {text: "ASSIGNMENT 1 (NEW) (حل)",    link: "coolPage.html",    apiKey: 3},
+    {text: "ASSIGNMENT 1 (شرح)",    link: "JAVA_1_EXP/ASSIGNMENT_1.html#exp",    apiKey: 4},
+    {text: "LAB 2 (حل)",                 link: "coolPage.html",               apiKey: 5},
+    {text: "LAB 2 (شرح)",           link: "JAVA_1_EXP/LAB_2.html#exp",           apiKey: 6},
+    {text: "LAB 3 (حل)",      link: "coolPage.html",               apiKey: 7},
+    {text: "LAB 3 (شرح)",           link: "JAVA_1_EXP/LAB_3.html#exp",           apiKey: 9},
 ];
 
 function getValue(key, callback) {
